@@ -11,29 +11,34 @@
 
 </head>
 <body>
-
-<!--Nav bar-->
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Mario Reyes</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    
-                  </div>
-                </div>
-              </nav>
-
-<!--Here starts the container-->
+	<div class="container">
+    <!--Beginning of Navigation bar -->
+  
+      <nav class="navbar bg-secondary">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand text-light" href="#">Mario Reyes</a>
+        </div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+          <a class="nav-link active text-light" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-light" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+          </li>			  
+        </ul>
+        </div>
+      </nav>
+    </div>
+  <!--End of navigation bar-->
+<!--Beginning of container-->
     <div class="container">
         <!--First row-->
             <div class="row" style="margin:40px 0px 40px 0px; border-bottom:#aaa solid 2px;">
-                <div class="col-12">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-12 col-xl-12">
                         <h1 class="text-left">Contact</h1>
                 </div>
                 
@@ -59,30 +64,26 @@
       </div>
     
     <button type="submit" class="btn btn-primary">Submit</button>
+    <br>
+    <br>
+    <br><br>
   </form>
 <!--End of contact form-->
 
          
-    <br>
-
-
-    </div><!--End of the container-->
-
-    <div><!--Footer starts here-->
-
-    <div class="row">
-        <div class="col">
-        <div class="card text-center">                                
-                <div class="card-footer text-muted">
-                  <p style="font-size: 12px;">Copyright &#169</p>
-                </div>
-        </div>
-        </div>
-    </div>
-
-
-    </div><!--End of footer-->
-
-    
-</body>
+    <!--Beginning of footer container-->
+	<div class="container-fluid fixed-bottom">	
+		<div class="card text-center">	
+			<div class="card-footer text-muted">
+			Copyright &#169
+			</div>
+		</div>	
+	</div><!--End of footer containier-->
+		
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
 </html>
